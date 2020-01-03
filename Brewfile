@@ -34,6 +34,7 @@ cask 'aerial' # screensavers
 cask 'alfred'
 cask 'bettertouchtool'
 cask 'discord'
+cask 'dropbox'
 cask 'google-chrome'
 cask 'gpg-suite'
 cask 'the-unarchiver'
