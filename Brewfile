@@ -25,10 +25,6 @@ brew 'zlib' # Needed for Memcached
 # Spatie Medialibrary
 # brew 'jpegoptim'
 
-# Development
-brew 'julia'
-brew 'visual-studio-code'
-
 # Apps
 cask 'aerial' # screensavers
 cask 'alfred'
@@ -40,6 +36,9 @@ cask 'gpg-suite'
 cask 'the-unarchiver'
 cask 'transmission'
 cask 'vlc'
+cask 'julia'
+cask 'visual-studio-code'
+
 
 # Quicklook
 cask 'qlcolorcode'
