@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 autoload -Uz compinit && compinit
 
 # Minimal - Theme Settings
-export MNML_INSERT_CHAR="$"
+export MNML_INSERT_CHAR=">>"
 export MNML_PROMPT=(mnml_git mnml_keymap)
 export MNML_RPROMPT=('mnml_cwd 20')
 
@@ -79,7 +79,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(z)
 
 source $ZSH/oh-my-zsh.sh
 
